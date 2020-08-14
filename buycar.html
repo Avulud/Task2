@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="JDM_logo.png" type="image/png">
+    <title>Avulud Cars</title>
+</head>
+<body>
+    <header>
+        <h1>Купуй авто з Японії прямо зараз</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Домашня</a></li>
+            <li><b>Купити автомобіль</b></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="BuyForm">
+            <h2>Заповни форму і наш менеджер допоможе тобі підібрати авто та відповість на усі твої запитання</h2>
+            <form action="https://formspree.io/mbjzbwgd" method="POST">
+                <fieldset>
+                    <legend>Заповніть усі поля</legend>
+                    <p>
+                        <input type="text" name="Manufacture" id="Manufacture" value="Марка" required>
+                    </p>
+                    <p>
+                        <input type="text" name="Model" id="Model" value="Модель" required>
+                    </p>
+                    <p>
+                        <label for="Years_from">Рік випуску від:</label>
+                        <input type="number" name="Years_from" id="Years_from" value="1985" required>
+                    </p> 
+                    <p>
+                        <label for="Years_from">Рік випуску до:</label>
+                        <input type="number" name="Years_to" id="Years_to" value="2020" required>
+                    </p> 
+                    <p>
+                        <label for="Price_from">Ціна від:</label>
+                        <input type="number" name="Price_from" id="Price_from" value="0" required>
+                    </p> 
+                    <p>
+                        <label for="Price_to">Ціна до:</label>
+                        <input type="number" name="Price_to" id="Price_to" value="0" required>
+                    </p>
+                    <p>
+                        <input type="radio" name="auction" id="auction" value="Від аукціону">
+                        <label for="auction">Від аукціону</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="Right" id="Right" value="Right" checked>
+                        <label for="Right">Правий руль</label>
+                    </p>
+                    <p>
+                        <input type="text" name="Phone" id="Phone" value="Ваш номер телефону" required>
+                    </p>
+                    <p> 
+                        <button type="submit">Відправити дані</button> 
+                    </p>
+                </fieldset>
+            </form>
+            <img src="Nissan_200sx.jpg" alt="Nissan 200SX">
+        </section>
+    </main>
+    <footer>
+    <p>© 2020 Avulud. Content is available under these licenses.</p>
+    </footer>
+</body>
+</html>
